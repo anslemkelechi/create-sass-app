@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const mainDir = `${__dirname}/sass`
+const mainDir = `./sass`
 const pathArray = [
   ['abstracts', ['_variables.scss', '_mixins.scss', '_functions.scss']],
   [

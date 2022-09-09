@@ -19,6 +19,36 @@
 $ npm i create-sass-app
 ```
 
+<h3>Create a javascript file(test.js) and require file using COMMONJS</h3>
+
+```shell
+const createSass = require('create-sass-app')
+```
+
+<h4>Using ES6 Exports</h4>
+
+```shell
+import {createSass} from 'create-sass-app'
+```
+
+<h3>Thats All, run the javascript file</h3>
+
+```shell
+node test.js //Using Node
+```
+
+<h4>Or Configure your <code>package.json</code> file by adding to the script.</h4>
+
+```shell
+"create:sass": "node test.js"
+```
+
+<p>Then finally run for the magic.</p>
+
+```shell
+$ npm run create:sass
+```
+
 <h3>Contributing</h3>
 Contribution is highly welcomed
 <ul>
@@ -28,7 +58,7 @@ Contribution is highly welcomed
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>Kelechi Okoronkwo - (Blakcoder)</li>
+  <li><a href="https://github.com/anslemkelechi">Kelechi Okoronkwo - (Blakcoder) </a> </li>
 </ul>
 
 <h3>License</h3>
