@@ -34,4 +34,3 @@ Keep it simple. Keep it minimal. Don't put every single feature just because you
 <h3>License</h3>
 
 This project is licensed under the MIT License
-git 
