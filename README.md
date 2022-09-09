@@ -1,4 +1,3 @@
-
 <h1 align="center"> Project Title - Create SASS App </h1>
 
 <hr/>
@@ -21,7 +20,11 @@ $ npm i create-sass-app
 ```
 
 <h3>Contributing</h3>
-Keep it simple. Keep it minimal. Don't put every single feature just because you can.
+Contribution is highly welcomed
+<ul>
+<li>Fork the code to your repository</li>
+<li>Make Changes and Send PR</li>
+</ul>
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
