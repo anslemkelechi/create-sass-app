@@ -37,3 +37,4 @@ Keep it simple. Keep it minimal. Don't put every single feature just because you
 
 This project is licensed under the MIT License
 >>>>>>> 6b67a06 (Initial Commit)
+git 
