@@ -1,0 +1,15 @@
+{
+  "name": "create-sass-app",
+  "version": "1.0.0",
+  "description": "Create a sass application with 7-1 archtecture system",
+  "main": "create-sass-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-sass": "node create-sass-app.js"
+  },
+  "author": "Kelechi Okoronkwo (Blakcoder)",
+  "license": "ISC",
+  "dependencies": {
+    "boilerplate-readme-template": "^1.0.1"
+  }
+}
