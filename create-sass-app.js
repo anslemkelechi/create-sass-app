@@ -1,6 +1,7 @@
 const fs = require('fs')
 
 const mainDir = `./sass`
+const cssDir = `./css`
 const pathArray = [
   ['abstracts', ['_variables.scss', '_mixins.scss', '_functions.scss']],
   [
@@ -9,7 +10,7 @@ const pathArray = [
       '_variables.scss',
       '_reset.scss',
       '_typography.scss',
-      'animations.scss',
+      '_animations.scss',
       '_utilities.scss',
     ],
   ],
@@ -21,20 +22,34 @@ const pathArray = [
 ]
 
 const createSass = async () => {
+  //CREATE SASS FOLDER
   fs.mkdir(mainDir, { recursive: true }, (err) => {
+    //LOOP THROUGH THE PATH ARRAY AND CREATE A FOLDER FOR EACH PATH
     pathArray.forEach((el) => {
       const folderPath = `${mainDir}/${el[0]}`
+      //LOOP THROUGH THE NEW FOLDER CREATED AND CREATE A THE FILES REPRESENTED FOR THEM
       fs.mkdir(folderPath, { recursive: true }, (err) => {
         el[1].forEach((cur) => {
-          fs.writeFile(`${folderPath}/${cur}`, 'New File Written', (err) => {
+          fs.writeFile(`${folderPath}/${cur}`, ' ', (err) => {
             console.log('Folders & Files Created')
           })
         })
       })
     })
+    //CREATE MAIN SASS FILE
     fs.writeFile(
       `${mainDir}/main.scss`,
-      'Import all your sass files here',
+      '/*Import all your sass files here*/',
+      (err) => {
+        console.log('No Error, Start Building')
+      },
+    )
+  })
+  //CREATE CSS FOLDER AND MAIN STYLESHEET
+  fs.mkdir(cssDir, { recursive: true }, (err) => {
+    fs.writeFile(
+      `${cssDir}/style.css`,
+      '/*Write your css files here*/',
       (err) => {
         console.log('No Error, Start Building')
       },
@@ -42,4 +57,4 @@ const createSass = async () => {
   })
 }
 
-module.exports = createSass
+createSass()

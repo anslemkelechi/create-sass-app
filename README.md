@@ -23,12 +23,14 @@ $ npm i create-sass-app
 
 ```shell
 const createSass = require('create-sass-app')
+createSass()
 ```
 
 <h4>Using ES6 Exports</h4>
 
 ```shell
 import {createSass} from 'create-sass-app'
+createSass()
 ```
 
 <h3>Thats All, run the javascript file</h3>
