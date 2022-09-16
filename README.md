@@ -19,7 +19,7 @@
 $ npm i create-sass-app
 ```
 
-<h3>Create a javascript file <code>(test.js)</code> using COMMONJS and copy code below</h3>
+<h3>Create a javascript file <code>(test.js)</code> and copy code below</h3>
 
 ```shell
 const createSass = require('create-sass-app')
