@@ -19,37 +19,19 @@
 $ npm i create-sass-app
 ```
 
-<h3>Create a javascript file <code>(test.js)</code> and require file using COMMONJS</h3>
+<h3>Create a javascript file <code>(test.js)</code> using COMMONJS and copy code below</h3>
 
 ```shell
 const createSass = require('create-sass-app')
 createSass()
 ```
 
-<h4>Using ES6 Exports</h4>
+<h3>Thats All, run the javascript file in the terminal for the magic</h3>
 
 ```shell
-import {createSass} from 'create-sass-app'
-createSass()
+$ node test.js 
 ```
 
-<h3>Thats All, run the javascript file</h3>
-
-```shell
-node test.js //Using Node
-```
-
-<h4>Or Configure your <code>package.json</code> file by adding to the script.</h4>
-
-```shell
-"create:sass": "node test.js"
-```
-
-<p>Then finally run for the magic.</p>
-
-```shell
-$ npm run create:sass
-```
 
 <h3>Contributing</h3>
 Contribution is highly welcomed
