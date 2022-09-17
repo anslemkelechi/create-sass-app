@@ -1,4 +1,4 @@
-<h1 align="center"> Project Title - Create SASS App </h1>
+<h1 align="center"> Project Title - Create SASS APP </h1>
 
 <hr/>
 
